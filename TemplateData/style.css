@@ -18,6 +18,15 @@
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right; margin-right: 10px;}
 
+.voltar a{
+    margin-left: 43%;
+    border: 0px;
+    border-radius: 32px;
+    color: #fff;
+    background-color: #2DCF9E;
+    padding: 15px;
+    text-decoration: none;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
