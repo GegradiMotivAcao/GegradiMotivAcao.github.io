@@ -1,5 +1,5 @@
 .webgl-content * {border: 0; margin: 0; padding: 0}
-.webgl-content {position:; margin:auto; top: 200px; left: 30%; width: 1024px;/* -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); border: 3px solid black;*/ }
+.webgl-content {position: absolute; margin:auto; top: 200px; left: 30%; width: 1024px;/* -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); border: 3px solid black;*/ }
 
 
 .webgl-content .logo, .progress {position: absolute; left: 30%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
