@@ -10,30 +10,27 @@
     <script src="Build/UnityLoader.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/duasdsuadgusagudasugdgusagdusa.json", {onProgress: UnityProgress});
+    </script>
   </head>
   <body class="main" style="overflow-x: hidden;background: rgb(255,255,255);">
   	<div class="logo2">
   		<img src="TemplateData/motivacao-logo.png" width="461px" height="100px" >
   	</div>
     
+    <div class="webgl-content">
+      <div id="gameContainer" style="height: 768px;"></div>
+       <div class="footer">
+        <div class="fullscreen" onclick=""></div> <!--gameInstance.SetFullscreen(1) -->
+        <div class="title">MotivAção</div>
+      </div>
+
     </div>
     <div class="cenas">
-      <div class="voltar" style="padding-bottom: 5px">
-        <a href="https://gegradimotivacao.github.io/CenaBase">Jogo Base</a>
-      </div> 
-      <div class="voltar" style="padding-bottom: 5px">
-        <a href="https://gegradimotivacao.github.io/CenaPiloto">Jogo Piloto</a>
-      </div> 
-      <div class="voltar" style="padding-bottom: 5px">
-        <a href="https://gegradimotivacao.github.io/PatrimonioCultural">Cena Patrimônio Cultural</a>
-      </div>
-      <div class="voltar" style="padding-bottom: 5px">
-        <a href="https://gegradimotivacao.github.io/CenaTais">Cena Tais Beltrame</a>
-      </div>
       <div class="voltar">
-        <a href="https://gegradimotivacao.github.io/CenaMapaSonoro">Cena Mapa Sonoro</a>
-      </div>
+        <a href="https://gegradimotivacao.github.io/">Página Inicial</a>
+      </div>   
     </div>
    
     
