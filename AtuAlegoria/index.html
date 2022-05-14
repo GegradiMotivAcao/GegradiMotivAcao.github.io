@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
@@ -10,36 +10,25 @@
     <script src="Build/UnityLoader.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/AtuAlegoria.json", {onProgress: UnityProgress});
+    </script>
   </head>
   <body class="main" style="overflow-x: hidden;background: rgb(255,255,255);">
   	<div class="logo2">
   		<img src="TemplateData/motivacao-logo.png" width="461px" height="100px" >
   	</div>
     
-    </div>
-    <div class="cenas">
-      <div class="voltar" style="padding-bottom: 5px">
-        <a href="https://gegradimotivacao.github.io/CenaBase">Jogo Base</a>
-      </div> 
-      <div class="voltar" style="padding-bottom: 5px">
-        <a href="https://gegradimotivacao.github.io/CenaPiloto">Jogo Piloto</a>
-      </div> 
-      <div class="voltar" style="padding-bottom: 5px">
-        <a href="https://gegradimotivacao.github.io/PatrimonioCultural">Cena Patrimônio Cultural</a>
-      </div>
-      <div class="voltar" style="padding-bottom: 5px">
-        <a href="https://gegradimotivacao.github.io/CenaTais">Cena Tais Beltrame</a>
-      </div>
-      <div class="voltar">
-        <a href="https://gegradimotivacao.github.io/CenaMapaSonoro">Cena Mapa Sonoro</a>
-      </div>
-      <div class="voltar">
-        <a href="https://gegradimotivacao.github.io/CenaMapaSonoro">AtuAlegoria</a>
+    <div class="webgl-content">
+      <div id="gameContainer" style="height: 768px;"></div>
+       <div class="footer">
+        <div class="fullscreen" onclick=""></div> <!--gameInstance.SetFullscreen(1) -->
+        <div class="title">AtuAlegoria</div>
       </div>
     </div>
-   
-    
+   <div class="voltar">
+      <a href="https://gegradimotivacao.github.io/">Página Inicial</a>
+    </div>
 	<div class="patrocinadores">
 	  <p class="text">Organismos Financiadores:</p>
 	  <div class="wrapper">
