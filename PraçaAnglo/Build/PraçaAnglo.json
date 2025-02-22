@@ -1,0 +1,15 @@
+{
+"companyName": "UFPEL",
+"productName": "Motivacao",
+"dataUrl": "PraçaAnglo.data.unityweb",
+"wasmCodeUrl": "PraçaAnglo.wasm.code.unityweb",
+"wasmFrameworkUrl": "PraçaAnglo.wasm.framework.unityweb",
+"asmCodeUrl": "PraçaAnglo.asm.code.unityweb",
+"asmMemoryUrl": "PraçaAnglo.asm.memory.unityweb",
+"asmFrameworkUrl": "PraçaAnglo.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#807F7F"
+}
