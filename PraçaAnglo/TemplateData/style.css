@@ -1,5 +1,6 @@
 .webgl-content * {border: 0; margin: 0; padding: 0}
-.webgl-content {position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+.webgl-content {position:; margin:auto; top: 200px; left: 50%; width: 1024px;/* -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); border: 3px solid black;*/ }
+
 
 .webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
 .webgl-content .logo {background: url('progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
@@ -15,4 +16,119 @@
 .webgl-content .footer .webgl-logo, .title, .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;}
 .webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
-.webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+.webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right; margin-right: 10px;}
+.voltar a{
+    margin-left: 47%;
+    border: 0px;
+    border-radius: 32px;
+    color: #fff;
+    background-color: #2DCF9E;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(180deg, #ffffff, #c6dafd);
+    overflow-x: hidden !important;
+    height:100%;
+    width: 100%;
+}
+
+.logo2 {width: 100%; height:25%; margin:auto;}
+
+.patrocinadores{
+
+    position: absolute; background-color: #8CC1EB; 
+    background: linear-gradient(#887dd7,#574D99);
+    width: 110%; height: 600px; top: 1100px; left: 0%; 
+    justify-content: space-between; 
+   -moz-box-shadow:    inset 0 0 13px #1a1351;
+   -webkit-box-shadow: inset 0 0 13px #1a1351;
+   box-shadow:         inset 0 0 13px #1a1351;
+
+}
+ .wrapper {
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 70px;
+}
+.wrapper2 {
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.caixalogo{ 
+width:100px;
+    height:100px;
+    top:50%;
+    left:50%;
+    margin-top:10px;
+    margin-left:10px;}
+
+.caixalogofinep{ 
+width:100px;
+    height:100px;
+    top:50%;
+    left:50%;
+    margin-top:-15px;
+    }
+
+.caixalogocapes{ 
+width:100px;
+    height:100px;
+    top:50%;
+    left:50%;
+    margin-top:10px;
+    margin-left:30px;
+}
+
+.caixalogocnpq{ 
+    width:100px;
+    height:100px;
+    top:50%;
+    left:50%;
+    margin-top:25px;
+    margin-left:-40px;}
+
+    .caixalogonaurb{ 
+width:100px;
+    height:100px;
+    top:50%;
+    left:50%;
+    margin-top:25px;
+    margin-left:10px;
+}
+
+.caixalogogegradi{ 
+width:100px;
+    height:100px;
+    top:50%;
+    left:70%;
+    margin-top:15px;
+    margin-left:50px;
+}
+
+.text{
+        margin-left:20px;
+        left:25%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        align-content: center;
+    }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .webgl-content {position: absolute; top: 5%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+    .patrocinadores{position: absolute; background-color: #8CC1EB; width: 100% ; height: 400px; top: 1100px; left: 0%;}
+
+}
+
+@media screen and (max-width: 1023px){
+    .webgl-content{
+    	left: 0%;
+        width: 109vw;
+    }    
+}
